@@ -114,6 +114,19 @@ body {
   overflow: hidden;
 }
 
+.slider-item {
+  height: 227px;
+  .item {
+    height: calc(100% - 10px);
+  }
+}
+
+.results-carousel video {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
 .results-carousel .item {
   margin: 5px;
   overflow: hidden;

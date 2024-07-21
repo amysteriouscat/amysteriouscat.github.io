@@ -1,0 +1,63 @@
+.video-compare-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  line-height: 0;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* #shadowMerge {
+  width: 50%;
+}
+
+#shadow2Merge {
+  width: 50%;
+} */
+
+canvas {
+  width: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+}
+
+.text-top-left {
+  top: 6px;
+  left: 0;
+}
+
+.text-top-right {
+  top: 6px;
+  right: 0;
+}
+
+.videoMerge {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  /* display: block; */
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.cropped-video {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
